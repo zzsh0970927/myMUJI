@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        .navbar {
+            justify-content: center;
+            width: 1080px;
+        } 
+
+        .navbar-brand {
+            color: black;
+            font-weight: bolder;
+            justify-content: space-between;
+        }
+
+        .navbar-brand img {
+            width: 120px;
+        }
+
+        .nav-link {
+            font-size: small;
+        }
+
+        .remind {
+            flex-basis: auto;
+            width: 1080px;
+            background-color: #ccc;
+        }
+
+        .photo1 {
+            margin-top: 10px;
+        }
+
+        .photo1 img {
+            width: 1080px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .photo2 {
+            justify-content: space-between;
+            width: 1080px;
+        }
+
+        .photo2 img {
+            width: 240px;
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 200px;
+        }
+
+        a {
+            color: gray;
+        }
+
+        .photo3 {
+            justify-content: space-between;
+            width: 1080px;
+        }
+
+        .picture img {
+            width: 320px;
+        }
+
+        .title {
+            margin-top: 20px;
+        }
+
+        .activity {
+            width: 1080px;
+        }
+
+        .subactive {
+            display: flex;
+            flex-direction: row-reverse;
+            width: 1080px;
+        }
+
+        .map {
+            width: 1080px;
+        }
+
+        .announcement {
+            width: 1080px;
+        }
+
+        .announcement p {
+            font-size: 80%;
+            color: gray;
+            line-height: 60%;
+        }
+
+        .white {
+            background: transparent;
+            height: 50px;
+        }
+
+        .gray {
+            background: #ebebeb;
+            height: 50px;
+        }
+
+        .footer {
+            background:black;
+        }
+        .footer a{
+            color:white;
+        }
+
+        .foot1 {
+            justify-content: center;
+            width: 1080px;
+            border-bottom: 1px solid white;
+            background: transparent;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footnav {
+            justify-content: center;
+            width: 1080px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row navbar">
+            <nav class="navbar navbar-expand-lg">
+
+                <div class="logo">
+                    <a class="navbar-brand" href="#"><img src="./images/logo_muji_b.png" alt=""></a>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">商品情報</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">門市活動</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">良品生活研究所</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">顧客服務</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">店鋪服務</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">大宗採購</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">展店合作</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">企業情報</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">公告</a>
+                        </li>
+                    </ul>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="row remind">
+            <p style="font-weight: bolder"> | 貼心提醒 </p>
+            <a href="https://www.muji.com/tw/news/news/170522.html"><span style="color:blue">仿冒品提醒聲明</a>
+        </div>
+
+        <div class="row photo1">
+            <img src="./images/main_message2020_tw_pc.jpg" alt="">
+        </div>
+
+        <div class="row photo2">
+            <div class="box">
+                <img src="./images/640X400-200810.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="./images/181122_licture640.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="./images/640X400-foundmuji-200805.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="./images/sofa-640X400-0623.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="./images/t-shirts-cht_640x400-0710.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="./images/sa-2020-0709.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="./images/ea-2020-05.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="./images/business.jpg" alt="">
+            </div>
+        </div>
+        <div class="active">
+            <div class="subactive">
+                <p>活動特輯</p>
+            </div>
+        </div>
+
+
+        <div class="title">
+            <p>良品服務</p>
+        </div>
+        <div class="row photo3">
+            <div class="picture">
+                <img src="./images/cafe_pc_181017.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="./images/mujibooks_640.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="./images/lecture_38_640.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="title">
+            <p>良品生活研究所</p>
+        </div>
+        <div class="row photo3">
+            <div class="picture">
+                <img src="./images/200529_640400.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="./images/200327_640400.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="./images/1598685614791.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="title">
+            <p>門市服務</p>
+        </div>
+        <div class="row photo3">
+            <div class="picture">
+                <img src="./images/171031_mujicard_640_1.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="./images/lecture_71_640.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="./images/stamp.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="title">
+            <p>店鋪情報</p>
+        </div>
+        <div class="row map">
+            <div class="picture_map">
+                <iframe src="https://www.muji.com/tw/" width="1080" height="246"></iframe>
+            </div>
+        </div>
+
+        <div class="title">
+            <p>公告</p>
+        </div>
+        <div class="announcement">
+            <p>2020-08-28</p>
+            <p>廣三門市營業公告</p>
+            <p>2020-08-14</p>
+            <p>重現「生活八景」，MUJI無印良品規劃全台第一間「家」的空間設計展，即日起-8/31「MUJI RENOVATION空間改造企劃展」台中金典獨家開展</p>
+            <p>2020-08-13</p>
+            <p>台中門市營業調整公告</p>
+        </div>
+        <div> </div>
+
+    </div>
+    <aside class="white">
+        <div>
+            &nbsp
+        </div>
+    </aside>
+
+    <aside class="gray">
+        <div>
+            &nbsp
+        </div>
+    </aside>
+
+
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+<footer class="footer">
+    <div class="container">
+        <nav class="footnav">
+            <div class="foot1">
+                <nav>
+                    <ul class="row">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">商品情報</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">門市活動</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">店舗情報</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Café&Meal MUJI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">會員服務</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">良品生活研究所</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FB粉絲團</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LINE</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="foot1">
+                <nav>
+                    <ul class="row">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">公告</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">仿冒品提醒聲明</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">人才招募</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">企業情報</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PDF商品型錄</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">門市服務</a>
+                        </li>                      
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="foot1">
+                <nav>
+                    <ul class="row">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">大宗採購</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">展店合作</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">博客來網路門市</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">7-ELEVEN線上購物中心</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">momo購物網路門市</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">7-ELEVEN店中店</a>
+                        </li>                                            
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="foot1">
+                <nav>
+                    <ul class="row">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">台灣</a>
+                        </li>                           
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="foot1">
+                <nav>
+                    <ul class="row">
+                        <li class="nav-item">
+                            <a style="color:gray" class="nav-link" href="#">© Ryohin Keikaku Co., Ltd.
+                                台灣無印良品股份有限公司 版權所有 轉載必究 © MUJI.tw Co., Ltd.</a>
+                        </li>                           
+                    </ul>
+                </nav>
+            </div>
+
+        </nav>
+    </div>
+
+</footer>
+
+</html>
